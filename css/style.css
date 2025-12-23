@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-color: #fefefe;
+    background-color: #f2f2f2;
     background-image: url(../img/Decore.png);
     background-position: top right; 
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ nav{
     align-items: center;
     gap: 55px;
     font-family: "Google Sans", sans-serif;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
 }
 nav a{
     text-decoration: none;
@@ -49,7 +49,7 @@ nav a{
 }
 
 nav a:hover{
-    transform: scale(105%);
+    transform: scale(102%);
     text-decoration: underline;
 }
 
@@ -120,3 +120,131 @@ main{
 .img-main img{
     width: 92%;
 }
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.services-container h4{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.services-container h2{
+    color: #14183E;
+    font-family: "Volkhov", serif;
+    font-size: 45px;
+}
+
+.services-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 70px;
+}
+
+.card-calculated{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 220px;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.card-calculated h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.card-calculated p{
+    font-family: "Poppins", sans-serif;
+    color: #5E6282;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.card-flights{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 210px;
+    height: 250px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-flights h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.card-flights p{
+    font-family: "Poppins", sans-serif;
+    color: #5E6282;
+    font-size: 14px;
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+
+.destinations-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.destinations-container h4{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.destinations-container h2{
+    color: #14183E;
+    font-family: "Volkhov", serif;
+    font-size: 45px;
+}
+
+.cards-destinations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locais {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  margin: 5% 2%;
+  background-image: url(../img/roma.png);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  border-radius: 8px;
+  background-position: top;
+}
+
+.locais-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    gap: 120px;
+    margin-left: 9%;    
+    font-family: "Poppins", sans-serif;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
