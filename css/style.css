@@ -221,7 +221,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 120px;
 }
 
 .locais-roma {
@@ -319,12 +319,14 @@ main{
     color: #5E6282;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 
 .trip-infos p{
     color: #5E6282;
     font-family: "Poppins", sans-serif;
     font-size: 13px;
+    flex-wrap: wrap;
 }
 
 .trip-infos-make{
@@ -351,4 +353,55 @@ main{
 .trip-img{
     margin-top: 10%;
     flex-wrap: wrap;
+    margin-right: 10%;
+}
+
+.avaliacao{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avaliacao-card{
+    width: 500px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.avaliacao-header-mike{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.avaliacao-header-mike p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+}
+
+.avaliacao-card-nome{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10%;
+}
+
+
+.avaliacao-card-nome h5{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.avaliacao-card-nome p{
+    color: #5E6282;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
