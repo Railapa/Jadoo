@@ -604,3 +604,110 @@ table td:hover{
     cursor: pointer;
     height: auto;
 }
+
+/* --- RESPONSIVIDADE --- */
+
+/* Ajustes para Tablets e Telas Médias (até 1024px) */
+@media (max-width: 1024px) {
+    header {
+        margin: 2% 5%;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-main {
+        width: 90%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .img-main {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .trip {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .trip-header {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Ajustes para Celulares (até 768px) */
+@media (max-width: 768px) {
+    nav {
+        display: none; /* Esconde o menu original - idealmente você usaria um menu hamburguer aqui */
+    }
+
+    .header-main h1 {
+        font-size: 35px;
+    }
+
+    .services-cards, .cards-destinations {
+        gap: 30px;
+    }
+
+    .avaliacao {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .avaliacao-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .formulario {
+        width: 95%;
+        margin: 10% 2.5%;
+        height: auto;
+        padding-bottom: 40px;
+        border-radius: 40px 15px 15px;
+    }
+
+    form {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    form input {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    table th, table td {
+        padding: 5px 15px;
+    }
+}
+
+/* Ajuste fino para telas muito pequenas (até 480px) */
+@media (max-width: 480px) {
+    .header-main h1 {
+        font-size: 28px;
+    }
+
+    .services-container h2, 
+    .destinations-container h2, 
+    .trip-header h2 {
+        font-size: 30px;
+    }
+
+    .locais-roma, .locais-london, .locais-full-europe {
+        width: 280px; /* Ajusta largura dos cards de destino */
+    }
+}
